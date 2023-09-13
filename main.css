@@ -32,7 +32,6 @@ h2{
 }
 
 /* Styling the paragraph */
-
 p{
 font-size: 16px; /* 16px is the default font size */
 color: #7f8c8d; /* grayish-blue*/
@@ -45,7 +44,6 @@ text-decoration: none; /*removing the underline */
 }
 
 /*Styling the unordered list */
-
 ul{
     list-style-type: none; /*removing the bullet points */
     margin-left: 20px; /* Indenting the list */
@@ -58,7 +56,14 @@ color: #7f8c8d; /* grayish-blue*/
 }
 
 /* Styling the unordered list within a div */
-
 div ul{
 list-style-type: square; /* Adding the bullet points back */
+}
+
+/*General styling using a class */
+.feature-card{
+    border: 2px solid #7f8c8d; /* grayish-blue*/
+    padding: 20px; /* adding some space inside the card */
+    margin: 20px; /* adding space outside the card */
+    background-color: #f9f9f9; /* light gray */
 }
