@@ -1,0 +1,12 @@
+/**********************
+* Description: Style Sheet for Assignment
+* Author: Aileen Cortes
+************************/
+
+/* Note: CSS are applied from top to bottom. Last rule wins. */
+/* Method 1: External CSS Part 3 */
+
+.external-css{
+    color: #038C7F;/* Teal Text Color */
+    background-color: #01403a; /*  Dark Teal Background Color */
+}
