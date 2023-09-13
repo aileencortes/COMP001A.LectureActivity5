@@ -87,3 +87,13 @@ list-style-type: square; /* Adding the bullet points back */
     border-color: #f39c12; /* gold borer color */
     box-shadow: 0 4px 8-x rgba(0, 0, 0, 0.1); /* adding a shadow */
 }
+
+/*Styling the link in its normal state */
+a{
+    display: inline-block; /* making the line block element */
+    color: #3498db; /* bright blue text */
+    text-decoration: none; /* removing underline */
+    padding: 5px 10px; /* adding some space inside the link */
+    border: 1px solid #3498db; /* bright blue border color */
+    transition: all 0.3 ease; /* adding a transition */
+}
