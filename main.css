@@ -67,3 +67,23 @@ list-style-type: square; /* Adding the bullet points back */
     margin: 20px; /* adding space outside the card */
     background-color: #f9f9f9; /* light gray */
 }
+
+/* styling h3 within a class */
+.feature-card{
+    font-size: 20px; /* default font size */
+    margin-bottom: 10px; /* spacing below heading */
+    color: #2c3e50; /* deep blue text */
+}
+
+/* styling p within a class */
+.feature-card p{
+    margin-bottom: 10px; /* spacing below heading */
+    color: #7f8c8d; /* grayish-blue text */
+}
+
+/* specific styling using an ID */
+#special-feature{
+    background-color: #fde3a7; /* light gold background color */
+    border-color: #f39c12; /* gold borer color */
+    box-shadow: 0 4px 8-x rgba(0, 0, 0, 0.1); /* adding a shadow */
+}
